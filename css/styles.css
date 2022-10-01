@@ -391,6 +391,14 @@ img {
     color: var(--secondary-text-color);
 }
 
+.form-label-accept{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    color: var(--secondary-text-color);
+}
+
 .form-input {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
@@ -435,7 +443,7 @@ img {
     margin-right: 7px;
 }
 
-.form-accept input:checked + .checkbox {
+.form-accept input:checked + label .checkbox {
     background-color: var(--accent-color);
     border-color: var(--accent-color);
     box-shadow: none;
@@ -887,7 +895,7 @@ textarea {
     justify-content: center;
 }
 
-.send-button-text {
+.text-to-block {
     display: inline-block;
 }
 
